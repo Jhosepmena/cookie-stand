@@ -3,26 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Sales Data</title>
+      <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
   </head>
   <body>
-    <h1>Internal Sales Data</h1>
-    <h3>Cookies sold per hour<h3>
-
-    <h2>First and Pike</h2>
-    <ul id="first"></ul>
-
-    <h2>SeaTac Airport</h2>
-    <ul id="seatac"></ul>
-
-    <h2>Seattle Center</h2>
-    <ul id="seacenter"></ul>
-
-    <h2>Capitol Hill</h2>
-    <ul id="caphill"></ul>
-
-    <h2>Alki</h2>
-    <ul id="alki"></ul>
-
-    <script src="app.js"></script>
+    <div id="topBar">
+      <div id="topInfo">
+        <h1 id="headerName"><a href="index.html">Salmon Cookies</a></h1>
+        <a name="home"></a>
+      </div>
+      <div id="topNav">
+        <ul>
+          <li><a href="index.html#contact">Contact Us</a></li>
+          <li><a href="index.html#history">History</a></li>
+          <li><a href="index.html#locations">Locations</a></li>
+          <li><a href="index.html#menu">Menu</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="banner">
+      <img src="imgs/salmon.png">
+      <div class="divider">
+        <h1>Menu</h1>
+        <a name=menu></a>
+      </div>
+    <div class="mainContainers">
+      <h1>Internal Sales Data</h1>
+    <h3>Cookies sold per hour</h3>
+    <table align=center id="locationSales"></table>
+  </div>
+      <script src="app.js"></script>
   </body>
 </html>
