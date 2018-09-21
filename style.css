@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("imgs/background.png");
+  background-repeat: repeat-y;
+}
+
+img {
+  height: 100%
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topBar {
+  background-color: rgb(180, 179, 175);
+  color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
+
+#topBar #topNav li {
+  display: inline-block;
+  float: right;
+  padding: 15px 20px 0px 10px;
+  height: 35px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+}
+
+#topBar #topNav li:hover {
+  color: rgb(30, 163, 180);
+}
+
+#headerName {
+  float: left;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  width: 40%;
+  margin: 10px 20px 20px 10px;
+}
+
+#banner {
+  background-image: url("imgs/banner3.jpg");
+  padding: 128px 0px 4px 0px;
+  height: 200px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#banner img {
+  padding-left: 25%;
+}
+
+#footerContainer {
+  color: rgb(213, 230, 232);
+  background-color: rgb(182, 142, 10);
+  text-align: center;
+  position: relative;
+  height: 180px;
+  padding-top: 20px;
+  width: 97%;
+  margin: -25px 20px 0px 20px;
+  font-family: 'Baskerville', serif;
+}
+
+#price {
+  font-family: 'Georgia', serif;
+}
+
+.mainContainers {
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 97%;
+  padding: 20px 0px 40px 0px;
+  margin: 0px 20px;
+  border: grey solid 1px;
+}
+
+.mainContainers h1,h2,h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.mainContainers p {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.mainContainers table,th,td {
+  font-family: 'Helvetica', sans-serif;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.mainContainers th,td {
+  border-bottom: 1px solid rgb(234, 234, 234);
+  padding: 10px;
+}
+
+.mainContainers th {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+.mainContainers tr:hover {
+  background-color: rgb(219, 242, 255)
+}
+
+.divider {
+  text-align: center;
+  width: 97%;
+  padding: 36px 0px 60px 0px;
+  margin: 0px 20px 0px 20px;
+  height: 39px;
+  background-color: rgb(127, 143, 148);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}

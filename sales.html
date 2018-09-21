@@ -1,28 +1,63 @@
-<!DOCTYPE html>
+<!DOCTYPE hmtl>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sales Data</title>
-  </head>
-  <body>
-    <h1>Internal Sales Data</h1>
-    <h3>Cookies sold per hour<h3>
+<head>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
+</head>
+<body>
+  <div id="topBar">
+    <div id="topInfo">
+      <h1 id="headerName"><a href="index.html">Salmon Cookies</a></h1>
+      <a name="home"></a>
+    </div>
+    <div id="topNav">
+      <ul>
+        <li><a href="index.html#contact">About Us</a></li>
+        <li><a href="index.html#history">Story</a></li>
+        <li><a href="index.html#locations">Markets</a></li>
+        <li><a href="index.html#menu">Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="banner">
+    <img src="imgs/salmon.png">
+    <div class="divider">
+      <h1>Menu</h1>
+      <a name=menu></a>
+    </div>
+<section id="store_name">
+			<h2 id="table-title">Stores and Cookies needed</h2>
+			<table id="store_data" class="threed">
+			<!--Script input  -->
+			</table>
+		</section>
 
-    <h2>First and Pike</h2>
-    <ul id="first"></ul>
+		<hr class="section_divider">
 
-    <h2>SeaTac Airport</h2>
-    <ul id="seatac"></ul>
-
-    <h2>Seattle Center</h2>
-    <ul id="seacenter"></ul>
-
-    <h2>Capitol Hill</h2>
-    <ul id="caphill"></ul>
-
-    <h2>Alki</h2>
-    <ul id="alki"></ul>
-
-    <script src="app.js"></script>
-  </body>
+		<section>
+			<form id="store_form">
+				<label>Store name: 
+				<br>
+				<input name="store_title" placeholder="store name" type="text" required></label>
+				<br>
+				<label>Minimum number of customers/hr: 
+				<br>
+				<input name="min_customers" placeholder="#" type="number" required></label>
+				<br>
+				<label>Maximum number of customers/hr: 
+				<br>
+				<input name="max_customers" placeholder="#" type="number" required></label>
+				<br>
+				<label>Avg. number of cookies per customer: 
+				<br> 
+				<input name="avg_cookies_per" placeholder="#" type="number" step="0.1" required></label>
+				<br>
+				<input type="submit" id="submit">
+			</form>
+		</section>
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
 </html>
